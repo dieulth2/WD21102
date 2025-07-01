@@ -1,0 +1,1 @@
+alert("Xin chào! Đây là JS");
