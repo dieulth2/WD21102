@@ -41,6 +41,37 @@
         y = 30;
         console.log("y sau khi Cập nhật lại là: ", y);
     </script>
+
+    <!-- const -->
+    <script>
+        console.log("CONST");
+        const z = 10;
+        {
+            const z = 20;
+            console.log("Trong khối z = ", z);
+        }
+        console.log("Ngoài khối z = ", z);
+
+        // Lỗi: const phải gán giá trị ngay khi khai báo
+        // const PI; => lỗi
+        // PI = 3.14;
+
+        // Sửa đúng
+        const PI = 3.14;
+
+        // Lỗi: const không thể gán lại giá trị, vì hằng số không đổi
+        // const user = "An";
+        // user = "Bình"; =>> lỗi
+
+        // Sửa đúng:
+        let user = "An";
+        user = "Bình";
+    </script>
+
+    <!-- var là biến toàn cục/ hàm, nên bị "đè" giá trị. Var có thể khai báo và gán lại lại giá trị -->
+    <!-- let, const: phạm vi khối, giá trị trong khối {} không ảnh hưởng ra ngoài -->
+    <!-- let không khai báo lại được nhưng có thể gán lại giá trị -->
+    <!-- const: không khai báo lại và không gán lại được -->
 </body>
 
 </html>
