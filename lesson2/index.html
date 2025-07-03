@@ -10,6 +10,7 @@
 <body>
     <!-- Var -->
     <script>
+        console.log("VAR");
         var x = 10;
         {
             // Khối (block)
@@ -17,6 +18,21 @@
             console.log("Trong khối x = ", x);
         }
         console.log("Ngoài khối x = ", x);
+        var x = 30;
+        console.log("x sau khi khai báo lại là: ", x);
+
+    </script>
+
+    <!-- let -->
+    <script>
+        console.log("LET");
+        let y = 10;
+        {
+            let y = 20;
+            console.log("Trong khối y = ", y);
+        }
+        console.log("Trong khối y = ", y);
+
     </script>
 </body>
 
