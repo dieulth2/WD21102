@@ -13,7 +13,6 @@ Biến là **tên đại diện** cho một vùng nhớ dùng để **lưu trữ
 
 ---
 ## Từ khóa khai báo biến
-- Tự động
 - var
 - let
 - const
@@ -42,12 +41,6 @@ const PI = 3.14;
 ---
 ## Cụ thể
 
-### Tự động
-Ví dụ:
-```js
-x = 1;
-y = 2;
-```
 ### var
 - Từ khóa `var` được sử dụng trong toàn bộ mã `JavaScript` từ năm 1995 đến năm 2015.
 - Từ khóa `var` chỉ nên được sử dụng trong mã được viết cho các trình duyệt cũ.
