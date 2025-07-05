@@ -12,7 +12,7 @@
     <p>Hãy mở Console (F12) để xem kết quả</p>
     <script>
         // Khai báo chuỗi
-        let name = "Mai";
+        let name = "Javascript";
         let greeting = 'Xin chào';
         let message = `Chào bạn, ${name}`; // Chuỗi mẫu
         // có thể chèn biến hoặc biệu thức vào chuỗi bằng: ${biến/bt};
@@ -54,6 +54,9 @@
         console.log("Vị trí của 'u' đầu tiên trong 'Su su': ", "Su su".indexOf('u'));
         // Tìm vị trí xuất hiện cuối cùng: lastIndexOf()
         console.log("Vị trí của 'u' cuối cùng trong 'Su su': ", "Su su".lastIndexOf('u'));
+        // Cắt chuỗi từ vị trí start đến trước end: slice(start, end)
+        console.log("slice(0,4): ", name.slice(0,4)); // Cắt Từ trái sang
+        console.log("slice(-6): ", name.slice(-6)) // Cắt Từ phải sang
     </script>
 </body>
 
