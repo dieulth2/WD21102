@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuỗi - String</title>
 </head>
+
 <body>
     <h1>Kiểu chuỗi - String</h1>
     <p>Hãy mở Console (F12) để xem kết quả</p>
@@ -47,8 +49,12 @@
         // Loại bỏ khoảng trắng/ dấu cách dư thừa: trim()
         console.log("Xóa khoảng trắng của '   Hello JS   ': ", "   Hello JS   ".trim());
         // includes(substring): Kiểm tra chuỗi có chứa đoạn con không → trả về true hoặc false.
-        console.log("Có 'script' không?", "Javascript".includes('Script'))
-        
+        console.log("Có 'script' không?", "Javascript".includes('Script'));
+        // Tìm vị trí xuất hiện đầu tiên: indexOf()
+        console.log("Vị trí của 'u' đầu tiên trong 'Su su': ", "Su su".indexOf('u'));
+        // Tìm vị trí xuất hiện cuối cùng: lastIndexOf()
+        console.log("Vị trí của 'u' cuối cùng trong 'Su su': ", "Su su".lastIndexOf('u'));
     </script>
 </body>
+
 </html>
